@@ -29,12 +29,12 @@ app.get('/v1/cards/:name', (req, res) => {
 // gets cards by suit
 app.get('/v1/cards/suit/:suit', (req, res) => {
     const suitName = req.params.suit.toLowerCase()
-    const card = tarotCards.cards.find(card => card.suit.toLowerCase() === suitName)
+    const cards = tarotCards.cards.filter(card => card.suit && card.suit.toLowerCase() === suitName)
    
-    if (card) {
-        res.json(card)
+    if (cards.length > 0) {
+        res.json(cards)
     } else {
-        res.status(404).send('Card not found')
+        res.status(404).send('Suit not found')
     }
 })
 

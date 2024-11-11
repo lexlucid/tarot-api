@@ -22,7 +22,7 @@
           "Naivety"
         ]
       },
-      "image": "/images/major/the-fool.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/0-fool.jpg",
       "keywords": [
         "beginnings",
         "innocence",
@@ -55,7 +55,7 @@
           "Trickery"
         ]
       },
-      "image": "/images/major/the-magician.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/1-magician.jpg",
       "keywords": [
         "power",
         "skill",
@@ -88,7 +88,7 @@
           "Confusion"
         ]
       },
-      "image": "/images/major/the-high-priestess.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/2-high-priestess.jpg",
       "keywords": [
         "intuition",
         "mystery",
@@ -121,7 +121,7 @@
           "Nature disconnect"
         ]
       },
-      "image": "/images/major/the-empress.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/3-empress.jpg",
       "keywords": [
         "abundance",
         "nurturing",
@@ -154,7 +154,7 @@
           "Control issues"
         ]
       },
-      "image": "/images/major/the-emperor.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/4-emperor.jpg",
       "keywords": [
         "authority",
         "father-figure",
@@ -187,7 +187,7 @@
           "Personal beliefs"
         ]
       },
-      "image": "/images/major/the-hierophant.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/5-hierophant.jpg",
       "keywords": [
         "tradition",
         "spirituality",
@@ -220,7 +220,7 @@
           "Poor choices"
         ]
       },
-      "image": "/images/major/the-lovers.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/6-lovers.jpg",
       "keywords": [
         "love",
         "choice",
@@ -253,7 +253,7 @@
           "Scattered energy"
         ]
       },
-      "image": "/images/major/the-chariot.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/7-chariot.jpg",
       "keywords": [
         "victory",
         "willpower",
@@ -286,7 +286,7 @@
           "Raw emotion"
         ]
       },
-      "image": "/images/major/strength.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/8-strength.jpg",
       "keywords": [
         "strength",
         "courage",
@@ -319,7 +319,7 @@
           "Rejection"
         ]
       },
-      "image": "/images/major/the-hermit.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/9-hermit.jpg",
       "keywords": [
         "solitude",
         "wisdom",
@@ -352,7 +352,7 @@
           "Unwanted change"
         ]
       },
-      "image": "/images/major/wheel-of-fortune.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/10-wheel-of-fortune.jpg",
       "keywords": [
         "fate",
         "cycles",
@@ -385,7 +385,7 @@
           "Legal complications"
         ]
       },
-      "image": "/images/major/justice.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/11-justice.jpg",
       "keywords": [
         "justice",
         "fairness",
@@ -418,7 +418,7 @@
           "Delay"
         ]
       },
-      "image": "/images/major/the-hanged-man.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/12-hanged-man.jpg",
       "keywords": [
         "surrender",
         "sacrifice",
@@ -451,7 +451,7 @@
           "Unable to move on"
         ]
       },
-      "image": "/images/major/death.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/13-death.jpg",
       "keywords": [
         "endings",
         "change",
@@ -484,7 +484,7 @@
           "Hastiness"
         ]
       },
-      "image": "/images/major/temperance.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/14-temperance.jpg",
       "keywords": [
         "balance",
         "harmony",
@@ -517,7 +517,7 @@
           "Detachment"
         ]
       },
-      "image": "/images/major/the-devil.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/15-devil.jpg",
       "keywords": [
         "bondage",
         "materialism",
@@ -550,7 +550,7 @@
           "Fear of suffering"
         ]
       },
-      "image": "/images/major/the-tower.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/16-tower.jpg",
       "keywords": [
         "disaster",
         "upheaval",
@@ -583,7 +583,7 @@
           "Discouragement"
         ]
       },
-      "image": "/images/major/the-star.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/17-star.jpg",
       "keywords": [
         "hope",
         "inspiration",
@@ -616,7 +616,7 @@
           "Overcoming anxiety"
         ]
       },
-      "image": "/images/major/the-moon.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/18-moon.jpg",
       "keywords": [
         "intuition",
         "illusion",
@@ -649,7 +649,7 @@
           "Excessive optimism"
         ]
       },
-      "image": "/images/major/the-sun.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/19-sun.jpg",
       "keywords": [
         "happiness",
         "success",
@@ -682,7 +682,7 @@
           "Reluctance"
         ]
       },
-      "image": "/images/major/judgement.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/20-judgement.jpg",
       "keywords": [
         "awakening",
         "rebirth",
@@ -715,7 +715,7 @@
           "Delay"
         ]
       },
-      "image": "/images/major/the-world.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/major/21-world.jpg",
       "keywords": [
         "completion",
         "achievement",
@@ -781,7 +781,7 @@
           "Indecision"
         ]
       },
-      "image": "/images/minor/wands/two-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/2-wands.jpg",
       "keywords": [
         "planning",
         "discovery",
@@ -814,7 +814,7 @@
           "Limited success"
         ]
       },
-      "image": "/images/minor/wands/three-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/3-wands.jpg",
       "keywords": [
         "expansion",
         "growth",
@@ -847,7 +847,7 @@
           "Instability"
         ]
       },
-      "image": "/images/minor/wands/four-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/4-wands.jpg",
       "keywords": [
         "celebration",
         "homecoming",
@@ -880,7 +880,7 @@
           "Harmony"
         ]
       },
-      "image": "/images/minor/wands/five-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/5-wands.jpg",
       "keywords": [
         "competition",
         "conflict",
@@ -913,7 +913,7 @@
           "Disappointment"
         ]
       },
-      "image": "/images/minor/wands/six-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/6-wands.jpg",
       "keywords": [
         "victory",
         "success",
@@ -946,7 +946,7 @@
           "Surrender"
         ]
       },
-      "image": "/images/minor/wands/seven-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/7-wands.jpg",
       "keywords": [
         "defense",
         "persistence",
@@ -979,7 +979,7 @@
           "Internal conflict"
         ]
       },
-      "image": "/images/minor/wands/eight-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/8-wands.jpg",
       "keywords": [
         "speed",
         "movement",
@@ -1012,7 +1012,7 @@
           "Paranoia"
         ]
       },
-      "image": "/images/minor/wands/nine-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/9-wands.jpg",
       "keywords": [
         "persistence",
         "courage",
@@ -1045,7 +1045,7 @@
           "Escape"
         ]
       },
-      "image": "/images/minor/wands/ten-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/10-wands.jpg",
       "keywords": [
         "burden",
         "responsibility",
@@ -1078,7 +1078,7 @@
           "Bad news"
         ]
       },
-      "image": "/images/minor/wands/page-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/page-wands.jpg",
       "keywords": [
         "enthusiasm",
         "exploration",
@@ -1111,7 +1111,7 @@
           "Delays"
         ]
       },
-      "image": "/images/minor/wands/knight-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/knight-wands.jpg",
       "keywords": [
         "adventure",
         "passion",
@@ -1144,7 +1144,7 @@
           "Revenge"
         ]
       },
-      "image": "/images/minor/wands/queen-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/queen-wands.jpg",
       "keywords": [
         "confidence",
         "vitality",
@@ -1177,7 +1177,7 @@
           "High expectations"
         ]
       },
-      "image": "/images/minor/wands/king-of-wands.jpg",
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/wands/king-wands.jpg",
       "keywords": [
         "leadership",
         "vision",
@@ -1187,9 +1187,1437 @@
       ],
       "element": "fire",
       "astrologicalSign": "Fire and Air"
-    } 
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "arcana": "minor",
+      "number": "1",
+      "suit": "cups",
+      "description": "The Ace of Cups represents new beginnings in matters of the heart, intuition, and emotional fulfillment. This card signifies an opportunity for love, compassion, and spiritual connection.",
+      "meanings": {
+        "upright": [
+          "New love",
+          "Emotional fulfillment",
+          "Spiritual awakening",
+          "Intuition",
+          "Compassion"
+        ],
+        "reversed": [
+          "Emotional blockage",
+          "Lack of empathy",
+          "Closed off",
+          "Emotionally unavailable"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/ace-cups.jpg",
+      "keywords": [
+        "love",
+        "emotion",
+        "intuition",
+        "spirituality",
+        "compassion"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer, Scorpio, Pisces"
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "cups",
+      "description": "The Two of Cups represents a harmonious partnership, emotional connection, and mutual understanding. This card suggests a coming together of two people or energies.",
+      "meanings": {
+        "upright": [
+          "Partnerships",
+          "Harmony",
+          "Romantic union",
+          "Mutual understanding",
+          "Collaboration"
+        ],
+        "reversed": [
+          "Disagreements",
+          "Imbalance",
+          "Disharmony",
+          "Lack of connection",
+          "Codependency"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/2-cups.jpg",
+      "keywords": [
+        "partnership",
+        "connection",
+        "harmony",
+        "romance",
+        "collaboration"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer"
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "cups",
+      "description": "The Three of Cups represents celebration, joy, and community. This card suggests a coming together of friends or like-minded individuals to share in abundance and emotional fulfillment.",
+      "meanings": {
+        "upright": [
+          "Celebration",
+          "Friendship",
+          "Happiness",
+          "Community",
+          "Emotional fulfillment"
+        ],
+        "reversed": [
+          "Isolation",
+          "Jealousy",
+          "Overindulgence",
+          "Gossip",
+          "Excess"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/3-cups.jpg",
+      "keywords": [
+        "celebration",
+        "friendship",
+        "community",
+        "joy",
+        "emotional connection"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer"
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "cups",
+      "description": "The Four of Cups represents introspection, contemplation, and temporary disillusionment. This card suggests a need to step back and reflect on one's emotional landscape.",
+      "meanings": {
+        "upright": [
+          "Introspection",
+          "Apathy",
+          "Discontentment",
+          "Emotional detachment",
+          "Missed opportunities"
+        ],
+        "reversed": [
+          "Re-engagement",
+          "Gratitude",
+          "New opportunities",
+          "Open-mindedness",
+          "Accepting help"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/4-cups.jpg",
+      "keywords": [
+        "introspection",
+        "contemplation",
+        "discontentment",
+        "emotional withdrawal",
+        "missed opportunities"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer"
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "cups",
+      "description": "The Five of Cups represents loss, grief, and disappointment. This card suggests a focus on what has been lost rather than what remains.",
+      "meanings": {
+        "upright": [
+          "Grief",
+          "Regret",
+          "Disappointment",
+          "Emotional turmoil",
+          "Focusing on the negative"
+        ],
+        "reversed": [
+          "Acceptance",
+          "Optimism",
+          "Letting go",
+          "Emotional healing",
+          "Focusing on the positive"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/5-cups.jpg",
+      "keywords": [
+        "loss",
+        "grief",
+        "disappointment",
+        "emotional turmoil",
+        "regret"
+      ],
+      "element": "water",
+      "astrologicalSign": "Scorpio"
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "cups",
+      "description": "The Six of Cups represents nostalgia, innocence, and fond memories from the past. This card suggests a return to simpler times or a need to reconnect with one's inner child.",
+      "meanings": {
+        "upright": [
+          "Nostalgia",
+          "Childhood",
+          "Innocence",
+          "Fond memories",
+          "Sentimentality"
+        ],
+        "reversed": [
+          "Inability to let go",
+          "Dwelling on the past",
+          "Immaturity",
+          "Naivety",
+          "Escapism"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/6-cups.jpg",
+      "keywords": [
+        "nostalgia",
+        "childhood",
+        "innocence",
+        "fond memories",
+        "sentimentality"
+      ],
+      "element": "water",
+      "astrologicalSign": "Scorpio"
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "cups",
+      "description": "The Seven of Cups represents illusion, fantasy, and choices. This card suggests a need to ground oneself and avoid becoming lost in daydreams or unrealistic options.",
+      "meanings": {
+        "upright": [
+          "Illusion",
+          "Fantasy",
+          "Choices",
+          "Indecision",
+          "Temptation"
+        ],
+        "reversed": [
+          "Clarity",
+          "Focus",
+          "Grounding",
+          "Discernment",
+          "Realizing dreams"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/7-cups.jpg",
+      "keywords": [
+        "illusion",
+        "fantasy",
+        "choices",
+        "indecision",
+        "temptation"
+      ],
+      "element": "water",
+      "astrologicalSign": "Scorpio"
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "cups",
+      "description": "The Eight of Cups represents abandonment, emotional detachment, and the need for a personal journey. This card suggests leaving behind something or someone that is no longer fulfilling.",
+      "meanings": {
+        "upright": [
+          "Abandonment",
+          "Emotional detachment",
+          "Personal journey",
+          "Moving on",
+          "Searching for deeper meaning"
+        ],
+        "reversed": [
+          "Reluctance to move on",
+          "Emotional avoidance",
+          "Clinging to the past",
+          "Unfulfilled desires",
+          "Escapism"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/8-cups.jpg",
+      "keywords": [
+        "abandonment",
+        "emotional detachment",
+        "personal journey",
+        "moving on",
+        "searching for meaning"
+      ],
+      "element": "water",
+      "astrologicalSign": "Pisces"
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "cups",
+      "description": "The Nine of Cups represents emotional fulfillment, satisfaction, and self-confidence. This card suggests a sense of accomplishment and the ability to enjoy the fruits of one's labor.",
+      "meanings": {
+        "upright": [
+          "Emotional fulfillment",
+          "Satisfaction",
+          "Self-confidence",
+          "Contentment",
+          "Wishes coming true"
+        ],
+        "reversed": [
+          "Arrogance",
+          "Complacency",
+          "Overindulgence",
+          "Emotional emptiness",
+          "Unfulfilled desires"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/9-cups.jpg",
+      "keywords": [
+        "emotional fulfillment",
+        "satisfaction",
+        "self-confidence",
+        "contentment",
+        "wishes coming true"
+      ],
+      "element": "water",
+      "astrologicalSign": "Pisces"
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "cups",
+      "description": "The Ten of Cups represents emotional wholeness, harmony, and fulfillment. This card suggests a state of domestic bliss, emotional security, and a sense of belonging.",
+      "meanings": {
+        "upright": [
+          "Emotional fulfillment",
+          "Family",
+          "Harmony",
+          "Contentment",
+          "Emotional security"
+        ],
+        "reversed": [
+          "Emotional instability",
+          "Disharmony",
+          "Broken promises",
+          "Lack of emotional support",
+          "Codependency"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/10-cups.jpg",
+      "keywords": [
+        "emotional fulfillment",
+        "family",
+        "harmony",
+        "contentment",
+        "emotional security"
+      ],
+      "element": "water",
+      "astrologicalSign": "Pisces"
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "arcana": "minor",
+      "number": "11",
+      "suit": "cups",
+      "description": "The Page of Cups represents sensitivity, creativity, and openness to new emotional experiences. This card suggests an inner child-like wonder and a capacity for empathy.",
+      "meanings": {
+        "upright": [
+          "Sensitivity",
+          "Creativity",
+          "Emotional intelligence",
+          "Intuition",
+          "Openness to new experiences"
+        ],
+        "reversed": [
+          "Emotional immaturity",
+          "Moodiness",
+          "Lack of empathy",
+          "Daydreaming",
+          "Escapism"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/page-cups.jpg",
+      "keywords": [
+        "sensitivity",
+        "creativity",
+        "emotional intelligence",
+        "intuition",
+        "openness"
+      ],
+      "element": "water",
+      "astrologicalSign": "Pisces, Cancer, Scorpio"
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "arcana": "minor",
+      "number": "12",
+      "suit": "cups",
+      "description": "The Knight of Cups represents romance, imagination, and emotional sensitivity. This card suggests a poetic, artistic, and compassionate nature.",
+      "meanings": {
+        "upright": [
+          "Romance",
+          "Creativity",
+          "Emotional sensitivity",
+          "Imagination",
+          "Compassion"
+        ],
+        "reversed": [
+          "Moodiness",
+          "Emotional immaturity",
+          "Manipulation",
+          "Idealization",
+          "Escapism"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/knight-cups.jpg",
+      "keywords": [
+        "romance",
+        "creativity",
+        "emotional sensitivity",
+        "imagination",
+        "compassion"
+      ],
+      "element": "water",
+      "astrologicalSign": "Pisces, Cancer, Scorpio"
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "arcana": "minor",
+      "number": "13",
+      "suit": "cups",
+      "description": "The Queen of Cups represents emotional intelligence, intuition, and empathy. This card suggests a nurturing, compassionate, and deeply intuitive nature.",
+      "meanings": {
+        "upright": [
+          "Emotional intelligence",
+          "Intuition",
+          "Compassion",
+          "Nurturing",
+          "Psychic abilities"
+        ],
+        "reversed": [
+          "Emotional manipulation",
+          "Insecurity",
+          "Passivity",
+          "Emotional detachment",
+          "Escapism"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/queen-cups.jpg",
+      "keywords": [
+        "emotional intelligence",
+        "intuition",
+        "compassion",
+        "nurturing",
+        "psychic abilities"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer, Scorpio, Pisces"
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "arcana": "minor",
+      "number": "14",
+      "suit": "cups",
+      "description": "The King of Cups represents emotional maturity, empathy, and sensitivity. This card suggests a balanced, compassionate, and emotionally intelligent leader.",
+      "meanings": {
+        "upright": [
+          "Emotional maturity",
+          "Empathy",
+          "Sensitivity",
+          "Compassion",
+          "Diplomacy"
+        ],
+        "reversed": [
+          "Emotional repression",
+          "Manipulation",
+          "Moodiness",
+          "Emotional instability",
+          "Lack of control"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/cups/king-cups.jpg",
+      "keywords": [
+        "emotional maturity",
+        "empathy",
+        "sensitivity",
+        "compassion",
+        "diplomacy"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer, Scorpio, Pisces"
+    },
+    {
+      "id": 50,
+      "name": "Ace of Pentacles",
+      "arcana": "minor",
+      "number": "1",
+      "suit": "pentacles",
+      "description": "The Ace of Pentacles represents new financial or material opportunities, manifestation, and abundance. This card suggests the seed of material success and prosperity.",
+      "meanings": {
+        "upright": [
+          "New opportunities",
+          "Prosperity",
+          "Abundance",
+          "Material success",
+          "Financial security"
+        ],
+        "reversed": [
+          "Missed opportunities",
+          "Financial setbacks",
+          "Scarcity mindset",
+          "Material instability",
+          "Poor planning"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/1-pentacles.jpg",
+      "keywords": [
+        "opportunity",
+        "prosperity",
+        "abundance",
+        "manifestation",
+        "security"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Taurus, Virgo, Capricorn"
+    },
+    {
+      "id": 51,
+      "name": "Two of Pentacles",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "pentacles",
+      "description": "The Two of Pentacles represents balance, adaptability, and juggling multiple responsibilities. This card suggests the need to maintain flexibility while managing resources.",
+      "meanings": {
+        "upright": [
+          "Balance",
+          "Adaptability",
+          "Time management",
+          "Prioritization",
+          "Flexibility"
+        ],
+        "reversed": [
+          "Imbalance",
+          "Disorganization",
+          "Overwhelm",
+          "Poor prioritization",
+          "Inflexibility"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/2-pentacles.jpg",
+      "keywords": [
+        "balance",
+        "adaptability",
+        "juggling",
+        "flexibility",
+        "resource management"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn"
+    },
+    {
+      "id": 52,
+      "name": "Three of Pentacles",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "pentacles",
+      "description": "The Three of Pentacles represents teamwork, craftsmanship, and skill development. This card suggests collaboration and recognition for quality work.",
+      "meanings": {
+        "upright": [
+          "Teamwork",
+          "Collaboration",
+          "Skill",
+          "Recognition",
+          "Quality work"
+        ],
+        "reversed": [
+          "Lack of teamwork",
+          "Poor craftsmanship",
+          "Lack of recognition",
+          "Discord",
+          "Competition"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/3-pentacles.jpg",
+      "keywords": [
+        "teamwork",
+        "collaboration",
+        "skill",
+        "recognition",
+        "craftsmanship"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn"
+    },
+    {
+      "id": 53,
+      "name": "Four of Pentacles",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "pentacles",
+      "description": "The Four of Pentacles represents security, conservation, and material stability. This card suggests a need to balance between saving and spending.",
+      "meanings": {
+        "upright": [
+          "Security",
+          "Conservation",
+          "Frugality",
+          "Material stability",
+          "Control"
+        ],
+        "reversed": [
+          "Greed",
+          "Materialism",
+          "Hoarding",
+          "Rigidity",
+          "Over-attachment"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/4-pentacles.jpg",
+      "keywords": [
+        "security",
+        "conservation",
+        "stability",
+        "control",
+        "material concerns"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn"
+    },
+    {
+      "id": 54,
+      "name": "Five of Pentacles",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "pentacles",
+      "description": "The Five of Pentacles represents hardship, financial loss, and material challenges. This card suggests a period of difficulty but also the availability of help if sought.",
+      "meanings": {
+        "upright": [
+          "Hardship",
+          "Financial loss",
+          "Poverty",
+          "Insecurity",
+          "Isolation"
+        ],
+        "reversed": [
+          "Recovery",
+          "Spiritual growth",
+          "Asking for help",
+          "Material improvement",
+          "Hope"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/5-pentacles.jpg",
+      "keywords": [
+        "hardship",
+        "poverty",
+        "insecurity",
+        "loss",
+        "struggle"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Taurus"
+    },
+    {
+      "id": 55,
+      "name": "Six of Pentacles",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "pentacles",
+      "description": "The Six of Pentacles represents generosity, charity, and the flow of material resources. This card suggests both giving and receiving with grace.",
+      "meanings": {
+        "upright": [
+          "Generosity",
+          "Charity",
+          "Sharing wealth",
+          "Material help",
+          "Support"
+        ],
+        "reversed": [
+          "Selfishness",
+          "Debt",
+          "Unequal power dynamics",
+          "Strings attached",
+          "False charity"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/6-pentacles.jpg",
+      "keywords": [
+        "generosity",
+        "charity",
+        "giving",
+        "receiving",
+        "support"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Taurus"
+    },
+    {
+      "id": 56,
+      "name": "Seven of Pentacles",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "pentacles",
+      "description": "The Seven of Pentacles represents assessment, patience, and long-term success. This card suggests evaluating progress and planning for future growth.",
+      "meanings": {
+        "upright": [
+          "Assessment",
+          "Patience",
+          "Long-term success",
+          "Investment",
+          "Growth"
+        ],
+        "reversed": [
+          "Impatience",
+          "Poor planning",
+          "Lack of progress",
+          "Wasted effort",
+          "Unrewarded work"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/7-pentacles.jpg",
+      "keywords": [
+        "assessment",
+        "patience",
+        "investment",
+        "growth",
+        "evaluation"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Taurus"
+    },
+    {
+      "id": 57,
+      "name": "Eight of Pentacles",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "pentacles",
+      "description": "The Eight of Pentacles represents craftsmanship, dedication, and skill development. This card suggests focused effort and commitment to mastery.",
+      "meanings": {
+        "upright": [
+          "Craftsmanship",
+          "Dedication",
+          "Skill development",
+          "Diligence",
+          "Quality"
+        ],
+        "reversed": [
+          "Perfectionism",
+          "Lack of focus",
+          "Poor workmanship",
+          "Shortcuts",
+          "Mediocrity"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/8-pentacles.jpg",
+      "keywords": [
+        "craftsmanship",
+        "dedication",
+        "skill",
+        "diligence",
+        "mastery"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Virgo"
+    },
+    {
+      "id": 58,
+      "name": "Nine of Pentacles",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "pentacles",
+      "description": "The Nine of Pentacles represents self-reliance, luxury, and material abundance. This card suggests independence and enjoying the fruits of one's labor.",
+      "meanings": {
+        "upright": [
+          "Self-reliance",
+          "Luxury",
+          "Independence",
+          "Refinement",
+          "Material abundance"
+        ],
+        "reversed": [
+          "Materialism",
+          "Over-dependency",
+          "Superficiality",
+          "False success",
+          "Show-off"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/9-pentacles.jpg",
+      "keywords": [
+        "self-reliance",
+        "luxury",
+        "independence",
+        "abundance",
+        "refinement"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Virgo"
+    },
+    {
+      "id": 59,
+      "name": "Ten of Pentacles",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "pentacles",
+      "description": "The Ten of Pentacles represents wealth, family legacy, and long-term success. This card suggests material security and generational abundance.",
+      "meanings": {
+        "upright": [
+          "Wealth",
+          "Family legacy",
+          "Inheritance",
+          "Establishment",
+          "Security"
+        ],
+        "reversed": [
+          "Family conflicts",
+          "Financial failure",
+          "Loss of legacy",
+          "Instability",
+          "Bankruptcy"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/10-pentacles.jpg",
+      "keywords": [
+        "wealth",
+        "legacy",
+        "security",
+        "inheritance",
+        "family"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Virgo"
+    },
+    {
+      "id": 60,
+      "name": "Page of Pentacles",
+      "arcana": "minor",
+      "number": "11",
+      "suit": "pentacles",
+      "description": "The Page of Pentacles represents study, ambition, and new opportunities in material matters. This card suggests a practical and studious approach to goals.",
+      "meanings": {
+        "upright": [
+          "Study",
+          "Ambition",
+          "New opportunity",
+          "Practicality",
+          "Diligence"
+        ],
+        "reversed": [
+          "Lack of focus",
+          "Unrealistic goals",
+          "Procrastination",
+          "Impracticality",
+          "Laziness"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/page-pentacles.jpg",
+      "keywords": [
+        "study",
+        "ambition",
+        "opportunity",
+        "practicality",
+        "diligence"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn, Taurus, Virgo"
+    },
+    {
+      "id": 61,
+      "name": "Knight of Pentacles",
+      "arcana": "minor",
+      "number": "12",
+      "suit": "pentacles",
+      "description": "The Knight of Pentacles represents reliability, hard work, and routine. This card suggests methodical progress and dedication to goals.",
+      "meanings": {
+        "upright": [
+          "Reliability",
+          "Hard work",
+          "Routine",
+          "Conservatism",
+          "Patience"
+        ],
+        "reversed": [
+          "Boredom",
+          "Stagnation",
+          "Perfectionism",
+          "Workaholic",
+          "Obsession"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/knight-pentacles.jpg",
+      "keywords": [
+        "reliability",
+        "routine",
+        "dedication",
+        "patience",
+        "methodical"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Virgo, Taurus, Capricorn"
+    },
+    {
+      "id": 62,
+      "name": "Queen of Pentacles",
+      "arcana": "minor",
+      "number": "13",
+      "suit": "pentacles",
+      "description": "The Queen of Pentacles represents nurturing, abundance, and practical wisdom. This card suggests material success through careful management.",
+      "meanings": {
+        "upright": [
+          "Nurturing",
+          "Abundance",
+          "Security",
+          "Practicality",
+          "Home management"
+        ],
+        "reversed": [
+          "Materialism",
+          "Smothering",
+          "Self-sacrifice",
+          "Codependency",
+          "Poor boundaries"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/queen-pentacles.jpg",
+      "keywords": [
+        "nurturing",
+        "abundance",
+        "security",
+        "practicality",
+        "management"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn"
+    },
+    {
+      "id": 63,
+      "name": "King of Pentacles",
+      "arcana": "minor",
+      "number": "14",
+      "suit": "pentacles",
+      "description": "The King of Pentacles represents wealth, business, and material success. This card suggests mastery in financial and material matters.",
+      "meanings": {
+        "upright": [
+          "Wealth",
+          "Business acumen",
+          "Leadership",
+          "Security",
+          "Discipline"
+        ],
+        "reversed": [
+          "Materialism",
+          "Corruption",
+          "Poor financial decisions",
+          "Inflexibility",
+          "Obsession with wealth"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/pentacles/king-pentacles.jpg",
+      "keywords": [
+        "wealth",
+        "business",
+        "security",
+        "discipline",
+        "abundance"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn, Taurus, Virgo"
+    },
+    {
+      "id": 64,
+      "name": "Ace of Swords",
+      "arcana": "minor",
+      "number": "1",
+      "suit": "swords",
+      "description": "The Ace of Swords represents breakthrough, clarity, and mental power. This card suggests new ideas, mental clarity, and the power of truth.",
+      "meanings": {
+        "upright": [
+          "Mental clarity",
+          "Breakthrough",
+          "Truth",
+          "New ideas",
+          "Intellectual power"
+        ],
+        "reversed": [
+          "Confusion",
+          "Chaos",
+          "Mental blocks",
+          "Miscommunication",
+          "Harsh truth"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/1-swords.jpg",
+      "keywords": [
+        "clarity",
+        "truth",
+        "breakthrough",
+        "intellect",
+        "power"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini, Libra, Aquarius"
+    },
+    {
+      "id": 65,
+      "name": "Two of Swords",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "swords",
+      "description": "The Two of Swords represents difficult decisions, stalemate, and mental balance. This card suggests a need to face choices with clarity and wisdom.",
+      "meanings": {
+        "upright": [
+          "Decision making",
+          "Stalemate",
+          "Balance",
+          "Blocked emotions",
+          "Inner conflict"
+        ],
+        "reversed": [
+          "Indecision",
+          "Confusion",
+          "Information overload",
+          "Release",
+          "Anxiety"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/2-swords.jpg",
+      "keywords": [
+        "decision",
+        "stalemate",
+        "balance",
+        "choices",
+        "conflict"
+      ],
+      "element": "air",
+      "astrologicalSign": "Libra"
+    },
+    {
+      "id": 66,
+      "name": "Three of Swords",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "swords",
+      "description": "The Three of Swords represents heartbreak, emotional pain, and sorrow. This card suggests difficult but necessary truths and the process of healing.",
+      "meanings": {
+        "upright": [
+          "Heartbreak",
+          "Sorrow",
+          "Pain",
+          "Grief",
+          "Truth"
+        ],
+        "reversed": [
+          "Healing",
+          "Recovery",
+          "Forgiveness",
+          "Release",
+          "Moving on"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/3-swords.jpg",
+      "keywords": [
+        "heartbreak",
+        "sorrow",
+        "pain",
+        "grief",
+        "healing"
+      ],
+      "element": "air",
+      "astrologicalSign": "Libra"
+    },
+    {
+      "id": 67,
+      "name": "Four of Swords",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "swords",
+      "description": "The Four of Swords represents rest, recuperation, and meditation. This card suggests taking time for mental renewal and peaceful contemplation.",
+      "meanings": {
+        "upright": [
+          "Rest",
+          "Recovery",
+          "Contemplation",
+          "Meditation",
+          "Retreat"
+        ],
+        "reversed": [
+          "Restlessness",
+          "Burnout",
+          "Stress",
+          "No peace",
+          "Re-emergence"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/4-swords.jpg",
+      "keywords": [
+        "rest",
+        "recovery",
+        "meditation",
+        "retreat",
+        "contemplation"
+      ],
+      "element": "air",
+      "astrologicalSign": "Libra"
+    },
+    {
+      "id": 68,
+      "name": "Five of Swords",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "swords",
+      "description": "The Five of Swords represents conflict, defeat, and hollow victory. This card suggests winning at a cost and the aftermath of confrontation.",
+      "meanings": {
+        "upright": [
+          "Conflict",
+          "Defeat",
+          "Loss",
+          "Hollow victory",
+          "Hostility"
+        ],
+        "reversed": [
+          "Reconciliation",
+          "Making amends",
+          "Forgiveness",
+          "Moving on",
+          "Resolution"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/5-swords.jpg",
+      "keywords": [
+        "conflict",
+        "defeat",
+        "loss",
+        "victory",
+        "hostility"
+      ],
+      "element": "air",
+      "astrologicalSign": "Aquarius"
+    },
+    {
+      "id": 69,
+      "name": "Six of Swords",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "swords",
+      "description": "The Six of Swords represents transition, moving forward, and leaving behind. This card suggests a journey toward calmer waters and mental peace.",
+      "meanings": {
+        "upright": [
+          "Transition",
+          "Moving forward",
+          "Peace of mind",
+          "Journey",
+          "Progress"
+        ],
+        "reversed": [
+          "Stuck",
+          "Resistance",
+          "Unfinished business",
+          "Baggage",
+          "Return"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/6-swords.jpg",
+      "keywords": [
+        "transition",
+        "journey",
+        "progress",
+        "moving forward",
+        "peace"
+      ],
+      "element": "air",
+      "astrologicalSign": "Aquarius"
+    },
+    {
+      "id": 70,
+      "name": "Seven of Swords",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "swords",
+      "description": "The Seven of Swords represents deception, strategy, and stealth. This card suggests careful planning and potential betrayal or dishonesty.",
+      "meanings": {
+        "upright": [
+          "Deception",
+          "Strategy",
+          "Sneakiness",
+          "Mental agility",
+          "Betrayal"
+        ],
+        "reversed": [
+          "Confession",
+          "Honesty",
+          "Truth revealed",
+          "Return",
+          "Getting caught"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/7-swords.jpg",
+      "keywords": [
+        "deception",
+        "strategy",
+        "stealth",
+        "betrayal",
+        "cunning"
+      ],
+      "element": "air",
+      "astrologicalSign": "Aquarius"
+    },
+    {
+      "id": 71,
+      "name": "Eight of Swords",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "swords",
+      "description": "The Eight of Swords represents restriction, imprisonment, and self-imposed limitations. This card suggests feeling trapped but having the power to break free.",
+      "meanings": {
+        "upright": [
+          "Restriction",
+          "Imprisonment",
+          "Self-limiting beliefs",
+          "Victimization",
+          "Powerlessness"
+        ],
+        "reversed": [
+          "Freedom",
+          "Release",
+          "Self-acceptance",
+          "Breaking free",
+          "New perspective"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/8-swords.jpg",
+      "keywords": [
+        "restriction",
+        "limitation",
+        "imprisonment",
+        "helplessness",
+        "victim"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini"
+    },
+    {
+      "id": 72,
+      "name": "Nine of Swords",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "swords",
+      "description": "The Nine of Swords represents anxiety, nightmares, and mental anguish. This card suggests overwhelming worry and the need to face inner fears.",
+      "meanings": {
+        "upright": [
+          "Anxiety",
+          "Nightmares",
+          "Depression",
+          "Worry",
+          "Mental anguish"
+        ],
+        "reversed": [
+          "Hope",
+          "Release of fear",
+          "Mental health",
+          "Recovery",
+          "Perspective"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/9-swords.jpg",
+      "keywords": [
+        "anxiety",
+        "worry",
+        "fear",
+        "nightmares",
+        "anguish"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini"
+    },
+    {
+      "id": 73,
+      "name": "Ten of Swords",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "swords",
+      "description": "The Ten of Swords represents painful endings, rock bottom, and transformation. This card suggests the end of a difficult situation and the potential for renewal.",
+      "meanings": {
+        "upright": [
+          "Painful ending",
+          "Rock bottom",
+          "Crisis",
+          "Failure",
+          "Betrayal"
+        ],
+        "reversed": [
+          "Recovery",
+          "Renewal",
+          "Survival",
+          "Progress",
+          "Hope"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/10-swords.jpg",
+      "keywords": [
+        "ending",
+        "failure",
+        "loss",
+        "crisis",
+        "transformation"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini"
+    },
+    {
+      "id": 74,
+      "name": "Page of Swords",
+      "arcana": "minor",
+      "number": "11",
+      "suit": "swords",
+      "description": "The Page of Swords represents curiosity, mental energy, and new ideas. This card suggests intellectual pursuit and the thirst for knowledge.",
+      "meanings": {
+        "upright": [
+          "Curiosity",
+          "Intelligence",
+          "Communication",
+          "Vigilance",
+          "New ideas"
+        ],
+        "reversed": [
+          "Gossip",
+          "Scattered thoughts",
+          "Lies",
+          "Cynicism",
+          "Harsh words"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/page-swords.jpg",
+      "keywords": [
+        "curiosity",
+        "intelligence",
+        "communication",
+        "truth",
+        "vigilance"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini, Libra, Aquarius"
+    },
+    {
+      "id": 75,
+      "name": "Knight of Swords",
+      "arcana": "minor",
+      "number": "12",
+      "suit": "swords",
+      "description": "The Knight of Swords represents swift action, ambition, and determination. This card suggests charging forward with intensity and purpose.",
+      "meanings": {
+        "upright": [
+          "Action",
+          "Ambition",
+          "Speed",
+          "Determination",
+          "Courage"
+        ],
+        "reversed": [
+          "Impulsiveness",
+          "Recklessness",
+          "Aggression",
+          "Burnout",
+          "Hostility"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/knight-swords.jpg",
+      "keywords": [
+        "action",
+        "ambition",
+        "determination",
+        "speed",
+        "courage"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini, Libra, Aquarius"
+    },
+    {
+      "id": 76,
+      "name": "Queen of Swords",
+      "arcana": "minor",
+      "number": "13",
+      "suit": "swords",
+      "description": "The Queen of Swords represents clear thinking, intellectual power, and independence. This card suggests wisdom through experience and sharp discernment.",
+      "meanings": {
+        "upright": [
+          "Intelligence",
+          "Independence",
+          "Clear thinking",
+          "Judgment",
+          "Direct communication"
+        ],
+        "reversed": [
+          "Coldness",
+          "Bitterness",
+          "Harsh judgment",
+          "Cruelty",
+          "Sharp tongue"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/queen-swords.jpg",
+      "keywords": [
+        "intelligence",
+        "clarity",
+        "truth",
+        "independence",
+        "wisdom"
+      ],
+      "element": "air",
+      "astrologicalSign": "Libra"
+    },
+    {
+      "id": 77,
+      "name": "King of Swords",
+      "arcana": "minor",
+      "number": "14",
+      "suit": "swords",
+      "description": "The King of Swords represents intellectual power, authority, and truth. This card suggests mental clarity and ethical leadership.",
+      "meanings": {
+        "upright": [
+          "Authority",
+          "Truth",
+          "Leadership",
+          "Intelligence",
+          "Justice"
+        ],
+        "reversed": [
+          "Tyranny",
+          "Manipulation",
+          "Cruelty",
+          "Abuse of power",
+          "Cold heart"
+        ]
+      },
+      "image": "https://a-tarot-api.s3.us-east-2.amazonaws.com/minor/swords/king-swords.jpg",
+      "keywords": [
+        "authority",
+        "truth",
+        "leadership",
+        "intelligence",
+        "justice"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini, Libra, Aquarius"
+    }
   ]
 }
+
       
       
       
