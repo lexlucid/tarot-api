@@ -1,0 +1,1199 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "arcana": "major",
+      "number": "0",
+      "suit": null,
+      "description": "The Fool represents new beginnings, innocence, spontaneity, and unlimited potential. This card suggests a time of fresh starts and taking leaps of faith.",
+      "meanings": {
+        "upright": [
+          "New beginnings",
+          "Spontaneity",
+          "Faith",
+          "Innocence",
+          "Adventure"
+        ],
+        "reversed": [
+          "Recklessness",
+          "Risk-taking",
+          "Inconsideration",
+          "Naivety"
+        ]
+      },
+      "image": "/images/major/the-fool.jpg",
+      "keywords": [
+        "beginnings",
+        "innocence",
+        "journey",
+        "spontaneity",
+        "adventure"
+      ],
+      "element": "air",
+      "astrologicalSign": "Uranus"
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "arcana": "major",
+      "number": "1",
+      "suit": null,
+      "description": "The Magician represents manifestation, resourcefulness, and inspired action. This card suggests harnessing one's full potential to achieve goals.",
+      "meanings": {
+        "upright": [
+          "Manifestation",
+          "Resourcefulness",
+          "Power",
+          "Inspiration",
+          "Skill"
+        ],
+        "reversed": [
+          "Manipulation",
+          "Poor planning",
+          "Untapped talents",
+          "Trickery"
+        ]
+      },
+      "image": "/images/major/the-magician.jpg",
+      "keywords": [
+        "power",
+        "skill",
+        "concentration",
+        "action",
+        "resourcefulness"
+      ],
+      "element": "air",
+      "astrologicalSign": "Mercury"
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "arcana": "major",
+      "number": "2",
+      "suit": null,
+      "description": "The High Priestess represents intuition, mystery, and inner knowledge. This card suggests trusting your inner voice and accessing your subconscious mind.",
+      "meanings": {
+        "upright": [
+          "Intuition",
+          "Mystery",
+          "Inner knowledge",
+          "Divine feminine",
+          "Unconscious"
+        ],
+        "reversed": [
+          "Secrets",
+          "Disconnection",
+          "Withdrawal",
+          "Confusion"
+        ]
+      },
+      "image": "/images/major/the-high-priestess.jpg",
+      "keywords": [
+        "intuition",
+        "mystery",
+        "spirituality",
+        "inner voice",
+        "divine knowledge"
+      ],
+      "element": "water",
+      "astrologicalSign": "Moon"
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "arcana": "major",
+      "number": "3",
+      "suit": null,
+      "description": "The Empress represents fertility, nurturing, and abundance. This card suggests creative expression and connecting with nature's rhythms.",
+      "meanings": {
+        "upright": [
+          "Fertility",
+          "Nurturing",
+          "Abundance",
+          "Creation",
+          "Nature"
+        ],
+        "reversed": [
+          "Creative block",
+          "Dependence",
+          "Neglect",
+          "Nature disconnect"
+        ]
+      },
+      "image": "/images/major/the-empress.jpg",
+      "keywords": [
+        "abundance",
+        "nurturing",
+        "fertility",
+        "mother",
+        "nature"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Venus"
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "arcana": "major",
+      "number": "4",
+      "suit": null,
+      "description": "The Emperor represents authority, structure, and leadership. This card suggests establishing order and taking control of situations.",
+      "meanings": {
+        "upright": [
+          "Authority",
+          "Structure",
+          "Protection",
+          "Leadership",
+          "Stability"
+        ],
+        "reversed": [
+          "Domination",
+          "Rigidity",
+          "Inflexibility",
+          "Control issues"
+        ]
+      },
+      "image": "/images/major/the-emperor.jpg",
+      "keywords": [
+        "authority",
+        "father-figure",
+        "structure",
+        "leadership",
+        "discipline"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Aries"
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "arcana": "major",
+      "number": "5",
+      "suit": null,
+      "description": "The Hierophant represents tradition, conformity, and spiritual guidance. This card suggests learning from established institutions and conventional approaches.",
+      "meanings": {
+        "upright": [
+          "Tradition",
+          "Conformity",
+          "Guidance",
+          "Wisdom",
+          "Education"
+        ],
+        "reversed": [
+          "Rebellion",
+          "Subversion",
+          "New approaches",
+          "Personal beliefs"
+        ]
+      },
+      "image": "/images/major/the-hierophant.jpg",
+      "keywords": [
+        "tradition",
+        "spirituality",
+        "education",
+        "beliefs",
+        "institutions"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Taurus"
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "arcana": "major",
+      "number": "6",
+      "suit": null,
+      "description": "The Lovers represents relationships, choices, and harmony. This card suggests important decisions about love, values, and desires.",
+      "meanings": {
+        "upright": [
+          "Love",
+          "Harmony",
+          "Choice",
+          "Values alignment",
+          "Partnership"
+        ],
+        "reversed": [
+          "Disharmony",
+          "Imbalance",
+          "Misalignment",
+          "Poor choices"
+        ]
+      },
+      "image": "/images/major/the-lovers.jpg",
+      "keywords": [
+        "love",
+        "choice",
+        "relationships",
+        "values",
+        "harmony"
+      ],
+      "element": "air",
+      "astrologicalSign": "Gemini"
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "arcana": "major",
+      "number": "7",
+      "suit": null,
+      "description": "The Chariot represents determination, willpower, and victory. This card suggests overcoming obstacles through confidence and control.",
+      "meanings": {
+        "upright": [
+          "Victory",
+          "Willpower",
+          "Success",
+          "Determination",
+          "Control"
+        ],
+        "reversed": [
+          "Lack of control",
+          "Aggression",
+          "Obstacles",
+          "Scattered energy"
+        ]
+      },
+      "image": "/images/major/the-chariot.jpg",
+      "keywords": [
+        "victory",
+        "willpower",
+        "success",
+        "ambition",
+        "control"
+      ],
+      "element": "water",
+      "astrologicalSign": "Cancer"
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "arcana": "major",
+      "number": "8",
+      "suit": null,
+      "description": "Strength represents inner strength, patience, and gentle control. This card suggests mastering raw emotions through compassion and soft power.",
+      "meanings": {
+        "upright": [
+          "Inner strength",
+          "Patience",
+          "Compassion",
+          "Influence",
+          "Courage"
+        ],
+        "reversed": [
+          "Self-doubt",
+          "Weakness",
+          "Low energy",
+          "Raw emotion"
+        ]
+      },
+      "image": "/images/major/strength.jpg",
+      "keywords": [
+        "strength",
+        "courage",
+        "patience",
+        "control",
+        "compassion"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Leo"
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "arcana": "major",
+      "number": "9",
+      "suit": null,
+      "description": "The Hermit represents introspection, inner guidance, and solitude. This card suggests seeking wisdom through contemplation and self-reflection.",
+      "meanings": {
+        "upright": [
+          "Introspection",
+          "Solitude",
+          "Guidance",
+          "Inner wisdom",
+          "Contemplation"
+        ],
+        "reversed": [
+          "Isolation",
+          "Loneliness",
+          "Withdrawal",
+          "Rejection"
+        ]
+      },
+      "image": "/images/major/the-hermit.jpg",
+      "keywords": [
+        "solitude",
+        "wisdom",
+        "guidance",
+        "contemplation",
+        "inner search"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Virgo"
+    },
+    {
+      "id": 10,
+      "name": "Wheel of Fortune",
+      "arcana": "major",
+      "number": "10",
+      "suit": null,
+      "description": "The Wheel of Fortune represents cycles, fate, and turning points. This card suggests embracing life's ups and downs and recognizing pivotal moments.",
+      "meanings": {
+        "upright": [
+          "Good luck",
+          "Cycles",
+          "Destiny",
+          "Change",
+          "Turning point"
+        ],
+        "reversed": [
+          "Bad luck",
+          "Resistance to change",
+          "Breaking cycles",
+          "Unwanted change"
+        ]
+      },
+      "image": "/images/major/wheel-of-fortune.jpg",
+      "keywords": [
+        "fate",
+        "cycles",
+        "change",
+        "fortune",
+        "turning points"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Jupiter"
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "arcana": "major",
+      "number": "11",
+      "suit": null,
+      "description": "Justice represents fairness, truth, and cause and effect. This card suggests a time of karmic balance and important decisions.",
+      "meanings": {
+        "upright": [
+          "Justice",
+          "Fairness",
+          "Truth",
+          "Cause and effect",
+          "Law"
+        ],
+        "reversed": [
+          "Unfairness",
+          "Dishonesty",
+          "Lack of accountability",
+          "Legal complications"
+        ]
+      },
+      "image": "/images/major/justice.jpg",
+      "keywords": [
+        "justice",
+        "fairness",
+        "truth",
+        "balance",
+        "karma"
+      ],
+      "element": "air",
+      "astrologicalSign": "Libra"
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "arcana": "major",
+      "number": "12",
+      "suit": null,
+      "description": "The Hanged Man represents surrender, letting go, and new perspectives. This card suggests viewing things from a different angle and accepting what is.",
+      "meanings": {
+        "upright": [
+          "Surrender",
+          "New perspective",
+          "Letting go",
+          "Suspension",
+          "Sacrifice"
+        ],
+        "reversed": [
+          "Stalling",
+          "Resistance",
+          "Indecision",
+          "Delay"
+        ]
+      },
+      "image": "/images/major/the-hanged-man.jpg",
+      "keywords": [
+        "surrender",
+        "sacrifice",
+        "perspective",
+        "waiting",
+        "letting go"
+      ],
+      "element": "water",
+      "astrologicalSign": "Neptune"
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "arcana": "major",
+      "number": "13",
+      "suit": null,
+      "description": "Death represents transformation, endings, and rebirth. This card suggests major life changes and letting go of what no longer serves.",
+      "meanings": {
+        "upright": [
+          "Transformation",
+          "Endings",
+          "Change",
+          "Transition",
+          "Release"
+        ],
+        "reversed": [
+          "Resistance to change",
+          "Stagnation",
+          "Fear of endings",
+          "Unable to move on"
+        ]
+      },
+      "image": "/images/major/death.jpg",
+      "keywords": [
+        "endings",
+        "change",
+        "transformation",
+        "transition",
+        "rebirth"
+      ],
+      "element": "water",
+      "astrologicalSign": "Scorpio"
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "arcana": "major",
+      "number": "14",
+      "suit": null,
+      "description": "Temperance represents balance, moderation, and patience. This card suggests finding middle ground and combining different elements harmoniously.",
+      "meanings": {
+        "upright": [
+          "Balance",
+          "Moderation",
+          "Patience",
+          "Purpose",
+          "Meaning"
+        ],
+        "reversed": [
+          "Imbalance",
+          "Excess",
+          "Lack of harmony",
+          "Hastiness"
+        ]
+      },
+      "image": "/images/major/temperance.jpg",
+      "keywords": [
+        "balance",
+        "harmony",
+        "moderation",
+        "patience",
+        "purpose"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Sagittarius"
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "arcana": "major",
+      "number": "15",
+      "suit": null,
+      "description": "The Devil represents bondage, materialism, and shadow self. This card suggests examining unhealthy attachments and facing one's inner demons.",
+      "meanings": {
+        "upright": [
+          "Bondage",
+          "Materialism",
+          "Temptation",
+          "Shadow self",
+          "Addiction"
+        ],
+        "reversed": [
+          "Release",
+          "Freedom",
+          "Reclaiming power",
+          "Detachment"
+        ]
+      },
+      "image": "/images/major/the-devil.jpg",
+      "keywords": [
+        "bondage",
+        "materialism",
+        "addiction",
+        "sexuality",
+        "shadow"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Capricorn"
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "arcana": "major",
+      "number": "16",
+      "suit": null,
+      "description": "The Tower represents sudden change, upheaval, and revelation. This card suggests destructive transformation that leads to enlightenment.",
+      "meanings": {
+        "upright": [
+          "Sudden change",
+          "Upheaval",
+          "Chaos",
+          "Revelation",
+          "Awakening"
+        ],
+        "reversed": [
+          "Fear of change",
+          "Avoiding disaster",
+          "Delaying the inevitable",
+          "Fear of suffering"
+        ]
+      },
+      "image": "/images/major/the-tower.jpg",
+      "keywords": [
+        "disaster",
+        "upheaval",
+        "revelation",
+        "awakening",
+        "destruction"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Mars"
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "arcana": "major",
+      "number": "17",
+      "suit": null,
+      "description": "The Star represents hope, inspiration, and serenity. This card suggests a period of spiritual insight, renewed optimism, and connection to the divine.",
+      "meanings": {
+        "upright": [
+          "Hope",
+          "Faith",
+          "Inspiration",
+          "Serenity",
+          "Renewal"
+        ],
+        "reversed": [
+          "Lack of faith",
+          "Despair",
+          "Disconnection",
+          "Discouragement"
+        ]
+      },
+      "image": "/images/major/the-star.jpg",
+      "keywords": [
+        "hope",
+        "inspiration",
+        "faith",
+        "healing",
+        "serenity"
+      ],
+      "element": "air",
+      "astrologicalSign": "Aquarius"
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "arcana": "major",
+      "number": "18",
+      "suit": null,
+      "description": "The Moon represents illusion, intuition, and the subconscious. This card suggests a time of uncertainty and facing hidden truths.",
+      "meanings": {
+        "upright": [
+          "Illusion",
+          "Fear",
+          "Intuition",
+          "Subconscious",
+          "Mystery"
+        ],
+        "reversed": [
+          "Release of fear",
+          "Clarity",
+          "Understanding",
+          "Overcoming anxiety"
+        ]
+      },
+      "image": "/images/major/the-moon.jpg",
+      "keywords": [
+        "intuition",
+        "illusion",
+        "dreams",
+        "mystery",
+        "unconscious"
+      ],
+      "element": "water",
+      "astrologicalSign": "Pisces"
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "arcana": "major",
+      "number": "19",
+      "suit": null,
+      "description": "The Sun represents joy, success, and positivity. This card suggests a time of clarity, warmth, and achievement.",
+      "meanings": {
+        "upright": [
+          "Joy",
+          "Success",
+          "Celebration",
+          "Positivity",
+          "Vitality"
+        ],
+        "reversed": [
+          "Temporary depression",
+          "Lack of success",
+          "Blocked happiness",
+          "Excessive optimism"
+        ]
+      },
+      "image": "/images/major/the-sun.jpg",
+      "keywords": [
+        "happiness",
+        "success",
+        "joy",
+        "vitality",
+        "enlightenment"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Sun"
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "arcana": "major",
+      "number": "20",
+      "suit": null,
+      "description": "Judgement represents awakening, rebirth, and inner calling. This card suggests a time of reflection, reckoning, and answering a higher calling.",
+      "meanings": {
+        "upright": [
+          "Awakening",
+          "Rebirth",
+          "Inner calling",
+          "Absolution",
+          "Purpose"
+        ],
+        "reversed": [
+          "Self-doubt",
+          "Inner critic",
+          "Ignoring the call",
+          "Reluctance"
+        ]
+      },
+      "image": "/images/major/judgement.jpg",
+      "keywords": [
+        "awakening",
+        "rebirth",
+        "calling",
+        "purpose",
+        "reckoning"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Pluto"
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "arcana": "major",
+      "number": "21",
+      "suit": null,
+      "description": "The World represents completion, integration, and accomplishment. This card suggests a time of fulfillment, success, and unity.",
+      "meanings": {
+        "upright": [
+          "Completion",
+          "Integration",
+          "Accomplishment",
+          "Travel",
+          "Unity"
+        ],
+        "reversed": [
+          "Lack of completion",
+          "Stagnation",
+          "Lack of closure",
+          "Delay"
+        ]
+      },
+      "image": "/images/major/the-world.jpg",
+      "keywords": [
+        "completion",
+        "achievement",
+        "integration",
+        "wholeness",
+        "success"
+      ],
+      "element": "earth",
+      "astrologicalSign": "Saturn"
+    },
+    {
+      "id": 22,
+      "name": "Ace of Wands",
+      "arcana": "minor",
+      "number": "1",
+      "suit": "wands",
+      "description": "The Ace of Wands represents new beginnings, inspiration, and creative potential. This card suggests the spark of a new idea or venture.",
+      "meanings": {
+        "upright": [
+          "New beginnings",
+          "Inspiration",
+          "Creative potential",
+          "Opportunity",
+          "Spirit"
+        ],
+        "reversed": [
+          "Delays",
+          "Lack of energy",
+          "Creative blocks",
+          "False starts"
+        ]
+      },
+      "image": "/images/minor/wands/ace-of-wands.jpg",
+      "keywords": [
+        "creation",
+        "inspiration",
+        "potential",
+        "purpose",
+        "spirituality"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Aries, Leo, Sagittarius"
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "arcana": "minor",
+      "number": "2",
+      "suit": "wands",
+      "description": "The Two of Wands represents planning, making decisions, and contemplating expansion. This card suggests viewing your situation from a higher perspective.",
+      "meanings": {
+        "upright": [
+          "Future planning",
+          "Progress",
+          "Decisions",
+          "Discovery",
+          "Vision"
+        ],
+        "reversed": [
+          "Fear of change",
+          "Poor planning",
+          "Lack of direction",
+          "Indecision"
+        ]
+      },
+      "image": "/images/minor/wands/two-of-wands.jpg",
+      "keywords": [
+        "planning",
+        "discovery",
+        "decisions",
+        "worldview",
+        "enterprise"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Mars in Aries"
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "arcana": "minor",
+      "number": "3",
+      "suit": "wands",
+      "description": "The Three of Wands represents expansion, foresight, and overseas opportunities. This card suggests preparation meeting opportunity.",
+      "meanings": {
+        "upright": [
+          "Expansion",
+          "Opportunity",
+          "Growth",
+          "Adventure",
+          "Trade"
+        ],
+        "reversed": [
+          "Obstacles",
+          "Delays",
+          "Lack of progress",
+          "Limited success"
+        ]
+      },
+      "image": "/images/minor/wands/three-of-wands.jpg",
+      "keywords": [
+        "expansion",
+        "growth",
+        "foresight",
+        "overseas",
+        "adventure"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Sun in Aries"
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "arcana": "minor",
+      "number": "4",
+      "suit": "wands",
+      "description": "The Four of Wands represents celebration, harmony, and homecoming. This card suggests a time of joy and completion of a phase.",
+      "meanings": {
+        "upright": [
+          "Celebration",
+          "Harmony",
+          "Marriage",
+          "Home",
+          "Community"
+        ],
+        "reversed": [
+          "Lack of support",
+          "Transience",
+          "Home conflicts",
+          "Instability"
+        ]
+      },
+      "image": "/images/minor/wands/four-of-wands.jpg",
+      "keywords": [
+        "celebration",
+        "homecoming",
+        "harmony",
+        "marriage",
+        "community"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Venus in Aries"
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "arcana": "minor",
+      "number": "5",
+      "suit": "wands",
+      "description": "The Five of Wands represents competition, conflict, and rivalry. This card suggests a time of challenges and competing interests.",
+      "meanings": {
+        "upright": [
+          "Competition",
+          "Conflict",
+          "Rivalry",
+          "Diversity",
+          "Challenge"
+        ],
+        "reversed": [
+          "Avoiding conflict",
+          "Agreement",
+          "Resolution",
+          "Harmony"
+        ]
+      },
+      "image": "/images/minor/wands/five-of-wands.jpg",
+      "keywords": [
+        "competition",
+        "conflict",
+        "challenges",
+        "tension",
+        "disagreement"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Saturn in Leo"
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "arcana": "minor",
+      "number": "6",
+      "suit": "wands",
+      "description": "The Six of Wands represents victory, success, and public recognition. This card suggests achievement and reward for efforts.",
+      "meanings": {
+        "upright": [
+          "Victory",
+          "Success",
+          "Recognition",
+          "Pride",
+          "Achievement"
+        ],
+        "reversed": [
+          "Egotism",
+          "Fall from grace",
+          "Lack of recognition",
+          "Disappointment"
+        ]
+      },
+      "image": "/images/minor/wands/six-of-wands.jpg",
+      "keywords": [
+        "victory",
+        "success",
+        "recognition",
+        "achievement",
+        "pride"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Jupiter in Leo"
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "arcana": "minor",
+      "number": "7",
+      "suit": "wands",
+      "description": "The Seven of Wands represents defense, perseverance, and maintaining one's position. This card suggests standing your ground against opposition.",
+      "meanings": {
+        "upright": [
+          "Challenge",
+          "Competition",
+          "Protection",
+          "Perseverance",
+          "Defense"
+        ],
+        "reversed": [
+          "Giving up",
+          "Overwhelmed",
+          "Self-doubt",
+          "Surrender"
+        ]
+      },
+      "image": "/images/minor/wands/seven-of-wands.jpg",
+      "keywords": [
+        "defense",
+        "persistence",
+        "challenge",
+        "conviction",
+        "standing ground"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Mars in Leo"
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "arcana": "minor",
+      "number": "8",
+      "suit": "wands",
+      "description": "The Eight of Wands represents swift action, movement, and air travel. This card suggests rapid progress and news arriving quickly.",
+      "meanings": {
+        "upright": [
+          "Speed",
+          "Action",
+          "Movement",
+          "Progress",
+          "Quick decisions"
+        ],
+        "reversed": [
+          "Delays",
+          "Frustration",
+          "Slowed progress",
+          "Internal conflict"
+        ]
+      },
+      "image": "/images/minor/wands/eight-of-wands.jpg",
+      "keywords": [
+        "speed",
+        "movement",
+        "travel",
+        "progress",
+        "messages"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Mercury in Sagittarius"
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "arcana": "minor",
+      "number": "9",
+      "suit": "wands",
+      "description": "The Nine of Wands represents resilience, perseverance, and last stands. This card suggests courage and persistence in the face of adversity.",
+      "meanings": {
+        "upright": [
+          "Resilience",
+          "Courage",
+          "Persistence",
+          "Test of faith",
+          "Boundaries"
+        ],
+        "reversed": [
+          "Exhaustion",
+          "Giving up",
+          "Overwhelmed",
+          "Paranoia"
+        ]
+      },
+      "image": "/images/minor/wands/nine-of-wands.jpg",
+      "keywords": [
+        "persistence",
+        "courage",
+        "resilience",
+        "stamina",
+        "determination"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Moon in Sagittarius"
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "arcana": "minor",
+      "number": "10",
+      "suit": "wands",
+      "description": "The Ten of Wands represents burdens, responsibility, and hard work. This card suggests carrying heavy loads and feeling overwhelmed.",
+      "meanings": {
+        "upright": [
+          "Burden",
+          "Responsibility",
+          "Hard work",
+          "Stress",
+          "Achievement"
+        ],
+        "reversed": [
+          "Releasing burdens",
+          "Delegation",
+          "Overwhelm",
+          "Escape"
+        ]
+      },
+      "image": "/images/minor/wands/ten-of-wands.jpg",
+      "keywords": [
+        "burden",
+        "responsibility",
+        "stress",
+        "completion",
+        "obligation"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Saturn in Sagittarius"
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "arcana": "minor",
+      "number": "11",
+      "suit": "wands",
+      "description": "The Page of Wands represents exploration, excitement, and discovery. This card suggests new ideas and enthusiastic beginnings.",
+      "meanings": {
+        "upright": [
+          "Exploration",
+          "Excitement",
+          "Freedom",
+          "Adventure",
+          "New ideas"
+        ],
+        "reversed": [
+          "Lack of direction",
+          "Procrastination",
+          "Instability",
+          "Bad news"
+        ]
+      },
+      "image": "/images/minor/wands/page-of-wands.jpg",
+      "keywords": [
+        "enthusiasm",
+        "exploration",
+        "discovery",
+        "potential",
+        "free spirit"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Earth and Fire"
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "arcana": "minor",
+      "number": "12",
+      "suit": "wands",
+      "description": "The Knight of Wands represents action, adventure, and impulsiveness. This card suggests charging forward with passion and energy.",
+      "meanings": {
+        "upright": [
+          "Action",
+          "Adventure",
+          "Fearlessness",
+          "Energy",
+          "Rush"
+        ],
+        "reversed": [
+          "Impulsiveness",
+          "Recklessness",
+          "Frustration",
+          "Delays"
+        ]
+      },
+      "image": "/images/minor/wands/knight-of-wands.jpg",
+      "keywords": [
+        "adventure",
+        "passion",
+        "impulse",
+        "action",
+        "energy"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Air and Fire"
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "arcana": "minor",
+      "number": "13",
+      "suit": "wands",
+      "description": "The Queen of Wands represents confidence, determination, and social butterfly. This card suggests vibrancy and natural leadership.",
+      "meanings": {
+        "upright": [
+          "Confidence",
+          "Determination",
+          "Joy",
+          "Leadership",
+          "Optimism"
+        ],
+        "reversed": [
+          "Jealousy",
+          "Insecurity",
+          "Demanding",
+          "Revenge"
+        ]
+      },
+      "image": "/images/minor/wands/queen-of-wands.jpg",
+      "keywords": [
+        "confidence",
+        "vitality",
+        "passion",
+        "determination",
+        "charisma"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Water and Fire"
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "arcana": "minor",
+      "number": "14",
+      "suit": "wands",
+      "description": "The King of Wands represents leadership, vision, and entrepreneurship. This card suggests bold action and creative authority.",
+      "meanings": {
+        "upright": [
+          "Leadership",
+          "Vision",
+          "Entrepreneur",
+          "Honor",
+          "Authority"
+        ],
+        "reversed": [
+          "Impulsiveness",
+          "Haste",
+          "Ruthlessness",
+          "High expectations"
+        ]
+      },
+      "image": "/images/minor/wands/king-of-wands.jpg",
+      "keywords": [
+        "leadership",
+        "vision",
+        "entrepreneur",
+        "authority",
+        "inspiration"
+      ],
+      "element": "fire",
+      "astrologicalSign": "Fire and Air"
+    } 
+  ]
+}
+      
+      
+      
+      
+      
+      
+    
