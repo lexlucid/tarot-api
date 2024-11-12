@@ -1,31 +1,20 @@
-const { MongoClient } = require("mongodb") 
+const { MongoClient, Db } = require("mongodb") 
 const express = require('express')
 const app = express() 
 const PORT = 3000
 const uri = "mongodb+srv://lexgarey:CYsyYtEAOLEpF4sF@cluster0.unflyuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
 const client = new MongoClient(uri)
 
-async function run() {
-    try {
-      const database = client.db('tarot_cards');
-      const cards = database.collection('cards');
-      // Query for a card by name
-      const query = { name: 'The Fool' };
-      const card = await cards.findOne(query);
-      console.log(card);
-    } finally {
-      // Ensures that the client will close when you finish/error
-      await client.close();
-    }
-  }
-  run().catch(console.dir);
-
-const tarotCards = require('./tarot-cards.json')
-const cards = tarotCards.cards
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+app.get('/', async (req, res) => {
+    Db.collection('cards').find({}).toArray((err, result) => {
+        if (err) {
+            console.log(err)
+            res.status(500).send('Internal Server Error')
+        } else {
+            res.json(result)
+        }
+    })
+    // res.sendFile(__dirname + '/index.html')
 })
 
 // get all cards
