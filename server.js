@@ -14,17 +14,30 @@ const getTarotCards = async () => {
     let { data: tarot_cards, error } = await supabase
     .from('tarot_cards')
     .select('*')
-    
+
+    if (error) {
+        console.log(error)
+        return []
+    }
+
     return tarot_cards
     }
+
+const fetchTarotCards = async (req, res, next) => {
+    req.tarotCards = await getTarotCards()
+    next()
+}
+
+app.use('/v1/cards', fetchTarotCards)
     
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
+
+
 // get all cards
 app.get('/v1/cards', async (req, res) => {
-    const tarotCards = await getTarotCards()
     console.log(tarotCards)
     res.json(tarotCards)
 })
