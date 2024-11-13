@@ -1,22 +1,16 @@
-const { MongoClient } = require("mongodb");
- 
-// Replace the following with your Atlas connection string                                                                                                                                        
-const url = "mongodb+srv://lexgarey:CYsyYtEAOLEpF4sF@cluster0.unflyuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+require('dotenv').config()
+const { createClient } = require('@supabase/supabase-js')
 
-// Connect to your Atlas cluster
-const client = new MongoClient(url);
+const supabaseUrl = 'https://cmttuqgmhgsxbgrpblkf.supabase.co'
+const supabaseKey = process.env.SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
 
-async function run() {
-    try {
-        await client.connect();
-        console.log("Successfully connected to Atlas");
-
-    } catch (err) {
-        console.log(err.stack);
-    }
-    finally {
-        await client.close();
-    }
+const getTarotCards = async () => {
+    const { data, error } = await supabase
+      .from('tarot_cards')
+      .select()
+    
+      console.log(data)
 }
 
-run().catch(console.dir);
+getTarotCards()

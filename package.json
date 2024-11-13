@@ -10,8 +10,9 @@
   "author": "lexlucid",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1",
-    "mongodb": "6.10"
+    "@supabase/supabase-js": "^2.46.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
