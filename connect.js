@@ -1,23 +1,21 @@
+import dotenv from 'dotenv/config'
+import { MongoClient } from "mongodb";
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://lexgarey:E1OwResn7HD6Cj7M@cluster0.unflyuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+// Replace the uri string with your connection string.
+const uri = process.env.MONGODB_URI;
 
-// Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
-  serverApi: {
-    version: ServerApiVersion.v1,
-    strict: true,
-    deprecationErrors: true,
-  }
-});
+const client = new MongoClient(uri);
 
 async function run() {
   try {
-    // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
-    // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
+    const database = client.db('tarot_cards');
+    const cards = database.collection('cards');
+
+    // Query for a movie that has the title 'Back to the Future'
+    const query = { arcana: "major"};
+    const card = await cards.findOne(query);
+
+    console.log(card);
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();

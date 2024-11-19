@@ -1,40 +1,31 @@
-require('dotenv').config()
-const { createClient } = require('@supabase/supabase-js')
+import 'dotenv/config'
+import express from "express";
+import { MongoClient } from "mongodb";
 
-const supabaseUrl = 'https://cmttuqgmhgsxbgrpblkf.supabase.co/'
-const supabaseKey = process.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
-
-const express = require('express')
 const app = express()
 const PORT = 3000
 
-const getTarotCards = async () => {
-    
-    const { data: tarot_cards, error } = await supabase
-    .from('tarot_cards')
-    .select('*')
+// Replace the uri string with your connection string.
+const uri = process.env.MONGODB_URI;
+const client = new MongoClient(uri);
 
-    if (error) {
-        console.log('Error fetching tarot cards', error)
-        return []
-    }
-    return tarot_cards
-    }
+async function run() {
+  try {
+    const database = client.db('tarot_cards');
+    const cards = database.collection('cards');
 
-const tarotCards = getTarotCards()
+    // Query for a movie that has the title 'Back to the Future'
+    const query = { id: 1};
+    const card = await cards.find().toArray();
 
-// app.use('/', fetchTarotCards)
-    
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
-})
-
-app.get('/cards', async (req, res) => {
-    const tarotCards = await tarotCards()
-    res.json(tarotCards)
-})
+    console.log(JSON.stringify(card[0].cards));
+  } finally {
+    // Ensures that the client will close when you finish/error
+    await client.close();
+  }
+}
+run().catch(console.dir);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`)
+    console.log(`Server listening on port ${PORT}`)
 })
