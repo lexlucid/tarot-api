@@ -64,6 +64,24 @@ app.get('/cards/suit/:suit', async (req, res) => {
     res.json(cards)
 })
 
+app.get('/cards/element/:element', async (req, res) => {
+    const { element } = req.params
+    const cards = await prisma.tarot_cards.findMany({
+        where: {
+            element: element,
+        },
+    })
+    res.json(cards)
+})
+
+app.get('/cards/random', async (req, res) => {
+    const card = await prisma.tarot_cards.findMany({
+        take: 1,
+        skip: Math.floor(Math.random() * 78)
+    })
+    res.json(card)
+})
+
 app.get('/', (req, res) => { // Add this block
     res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
