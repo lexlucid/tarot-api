@@ -1,11 +1,14 @@
 import { PrismaClient } from '@prisma/client'
 import express from 'express'
+import path from 'path' // Add this line
 
 const app = express()
 const prisma = new PrismaClient()
 const PORT = process.env.PORT || 10000
 
 app.use(express.json())
+
+app.use(express.static(path.join(__dirname, 'public'))) // Add this line
 
 app.use((req, res, next) => {
     const originalJson = res.json
@@ -54,6 +57,10 @@ app.get('/cards/suit/:suit', async (req, res) => {
         },
     })
     res.json(cards)
+})
+
+app.get('/', (req, res) => { // Add this block
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
 app.listen(PORT, '0.0.0.0', () => {
