@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+type CardsMeanings {
+  reversed String[]
+  upright  String[]
+}
+
+model cards {
+  id               String        @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  arcana           String
+  suit             String?
+  astrologicalSign String
+  description      String
+  element          String
+  id_              Int           @map("id")
+  image            String
+  keywords         String[]
+  meanings         CardsMeanings
+  number           String
+
+}

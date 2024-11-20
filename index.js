@@ -1,24 +1,47 @@
-const { MongoClient } = require("mongodb");
+import { PrismaClient } from '@prisma/client'
+import express from 'express'
 
-// Replace the uri string with your connection string.
-const uri = "mongodb+srv://lexgarey:CYsyYtEAOLEpF4sF@cluster0.unflyuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const app = express()
+const prisma = new PrismaClient()
+const PORT = 3000
 
+app.use(express.json())
 
-const client = new MongoClient(uri);
+app.get('/cards', async (req, res) => {
+    const cards = await prisma.cards.findMany()
+    res.json(cards)
+})
 
-async function run() {
-  try {
-    const database = client.db('tarot_cards');
-    const cards = database.collection('cards');
+app.get('/cards/name/:name', async (req, res) => {
+    const { name } = req.params
+    const card = await prisma.cards.findUnique({
+        where: {
+            name: name,
+        },
+    })
+    res.json(card)
+})
 
-    // Query for a movie that has the title 'Back to the Future'
-    const query = { name: 'The Fool' };
-    const card = await cards.findOne(query);
+app.get('/cards/arcana/:arcana', async (req, res) => {
+    const { arcana } = req.params
+    const cards = await prisma.cards.findMany({
+        where: {
+            arcana: arcana,
+        },
+    })
+    res.json(cards)
+})
 
-    console.log(card);
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await client.close();
-  }
-}
-run().catch(console.dir);
+app.get('/cards/suit/:suit', async (req, res) => {
+    const { suit } = req.params
+    const cards = await prisma.cards.findMany({
+        where: {
+            suit: suit,
+        },
+    })
+    res.json(cards)
+})
+
+app.listen(PORT, () => {
+    console.log(`Server listening on port http://localhost:${PORT}`)
+})
