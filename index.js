@@ -3,7 +3,7 @@ import express from 'express'
 
 const app = express()
 const prisma = new PrismaClient()
-const PORT = process.env.PORT || "8080"
+const PORT = process.env.PORT || 10000
 
 app.use(express.json())
 
@@ -56,6 +56,6 @@ app.get('/cards/suit/:suit', async (req, res) => {
     res.json(cards)
 })
 
-app.listen(PORT, () => {
-    console.log(`Server listening on port http://localhost:${PORT}`)
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server listening on port ${PORT}`)
 })
