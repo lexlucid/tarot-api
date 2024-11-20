@@ -1,6 +1,11 @@
 import { PrismaClient } from '@prisma/client'
 import express from 'express'
-import path from 'path' // Add this line
+import path from 'path'
+import { fileURLToPath } from 'url' // Add this line
+import { dirname } from 'path' // Add this line
+
+const __filename = fileURLToPath(import.meta.url) // Add this line
+const __dirname = dirname(__filename) // Add this line
 
 const app = express()
 const prisma = new PrismaClient()
