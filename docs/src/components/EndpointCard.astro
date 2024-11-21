@@ -1,0 +1,21 @@
+---
+interface Props {
+  method: string;
+  endpoint: string;
+  description: string;
+  response: string;
+}
+
+const { method, endpoint, description, response } = Astro.props;
+---
+
+<div class="border border-mystic-gold/30 rounded-lg p-6 backdrop-blur-sm bg-black/20 hover:bg-black/30 transition-all">
+  <div class="flex items-center gap-4 mb-4">
+    <span class="text-mystic-gold font-mono px-2 py-1 rounded bg-mystic-gold/10">{method}</span>
+    <code class="text-mystic-accent">{endpoint}</code>
+  </div>
+  <p class="mb-4 text-gray-300">{description}</p>
+  <div class="bg-black/40 p-4 rounded-md">
+    <pre class="text-sm text-gray-300 overflow-x-auto"><code>{response}</code></pre>
+  </div>
+</div>

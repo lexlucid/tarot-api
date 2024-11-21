@@ -13,7 +13,8 @@ const PORT = process.env.PORT || 10000
 
 app.use(express.json())
 
-app.use(express.static(path.join(__dirname, 'public'))) 
+// Serve static files from the Astro build directory
+app.use(express.static(path.join(__dirname, 'docs', 'dist')))
 
 app.use((req, res, next) => {
     const originalJson = res.json
@@ -24,6 +25,11 @@ app.use((req, res, next) => {
         originalJson.call(this, data)
     }
     next()
+})
+
+// Serve the Astro index.html for the root route
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'docs', 'dist', 'index.html'))
 })
 
 app.get('/cards', async (req, res) => {

@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EndpointCard from '../components/EndpointCard.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title="Arcana API - Tarot Card API Documentation">
+  <main class="container mx-auto px-4 py-12 max-w-4xl">
+    <Header />
+
+    <section class="mb-16">
+      <h2 class="text-3xl font-mystical text-mystic-gold mb-8">Getting Started</h2>
+      <div class="prose prose-invert max-w-none">
+        <p class="text-gray-300 mb-6">
+          Welcome to the Arcana API, your gateway to the mystical world of tarot readings. 
+          Our API provides access to a comprehensive database of tarot cards, including their meanings, 
+          symbolism, and interpretations.
+        </p>
+        <div class="bg-black/40 p-4 rounded-md mb-8">
+          <code class="text-mystic-accent">Base URL: https://api.arcana.dev/v1</code>
+        </div>
+      </div>
+    </section>
+
+    <section class="space-y-8">
+      <h2 class="text-3xl font-mystical text-mystic-gold mb-8">Endpoints</h2>
+      
+      <EndpointCard
+        method="GET"
+        endpoint="/cards"
+        description="Retrieve a list of all tarot cards in the deck"
+        response={`{
+  "cards": [
+    {
+      "id": "fool",
+      "name": "The Fool",
+      "arcana": "major",
+      "suit": null,
+      "number": 0
+    },
+    // ... more cards
+  ]
+}`}
+      />
+
+      <EndpointCard
+        method="GET"
+        endpoint="/cards/:id"
+        description="Get detailed information about a specific tarot card"
+        response={`{
+  "id": "fool",
+  "name": "The Fool",
+  "arcana": "major",
+  "suit": null,
+  "number": 0,
+  "meanings": {
+    "upright": ["New beginnings", "Innocence", "Adventure"],
+    "reversed": ["Recklessness", "Risk-taking", "Second-guessing"]
+  },
+  "description": "The Fool represents new beginnings, having faith in the future..."
+}`}
+      />
+
+      <EndpointCard
+        method="GET"
+        endpoint="/readings/daily"
+        description="Get a random daily card reading"
+        response={`{
+  "date": "2024-03-21",
+  "card": {
+    "name": "The High Priestess",
+    "position": "upright",
+    "interpretation": "Trust your intuition today..."
+  }
+}`}
+      />
+    </section>
+
+    <footer class="mt-20 text-center text-gray-500 border-t border-mystic-gold/20 pt-8">
+      <p>🌙 Arcana API © 2024 | Made with mystical intentions</p>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  :root {
+    scroll-behavior: smooth;
+  }
+
+  main {
+    background-image: radial-gradient(circle at 50% 50%, rgba(139, 69, 19, 0.1) 0%, rgba(26, 26, 46, 0) 70%);
+  }
+</style>
