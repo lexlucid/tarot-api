@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Arcana API - Tarot Card API Documentation"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet"><meta name="generator" content="Astro v4.16.14"><title>Arcana API - Tarot Card API Documentation</title><link rel="stylesheet" href="/_astro/index.CXBXNPVR.css"></head> <body class="bg-mystic-dark text-gray-200 min-h-screen">  <main class="container mx-auto px-4 py-12 max-w-4xl" data-astro-cid-j7pv25f6> <div class="relative" data-astro-cid-3ef6ksr2> <!-- Animated circles --> <div class="absolute inset-0 flex items-center justify-center" data-astro-cid-3ef6ksr2> <div class="circle-container" data-astro-cid-3ef6ksr2> <div class="spinning-circle circle-1" data-astro-cid-3ef6ksr2></div><div class="spinning-circle circle-2" data-astro-cid-3ef6ksr2></div><div class="spinning-circle circle-3" data-astro-cid-3ef6ksr2></div> </div> </div> <!-- Content --> <div class="relative z-10 text-center mb-16" data-astro-cid-3ef6ksr2> <h1 class="text-5xl font-mystical text-mystic-gold mb-6" data-astro-cid-3ef6ksr2>🔮 Arcana API</h1> <p class="text-xl text-gray-400" data-astro-cid-3ef6ksr2>Unlock the mysteries of the tarot through our powerful API</p> </div> </div>  <section class="mb-16" data-astro-cid-j7pv25f6> <h2 class="text-3xl font-mystical text-mystic-gold mb-8" data-astro-cid-j7pv25f6>Getting Started</h2> <div class="prose prose-invert max-w-none" data-astro-cid-j7pv25f6> <p class="text-gray-300 mb-6" data-astro-cid-j7pv25f6>
+Welcome to the Arcana API, your gateway to the mystical world of tarot readings. 
+          Our API provides access to a comprehensive database of tarot cards, including their meanings, 
+          symbolism, and interpretations.
+</p> <div class="bg-black/40 p-4 rounded-md mb-8" data-astro-cid-j7pv25f6> <code class="text-mystic-accent" data-astro-cid-j7pv25f6>Base URL: https://api.arcana.dev/v1</code> </div> </div> </section> <section class="space-y-8" data-astro-cid-j7pv25f6> <h2 class="text-3xl font-mystical text-mystic-gold mb-8" data-astro-cid-j7pv25f6>Endpoints</h2> <div class="border border-mystic-gold/30 rounded-lg p-6 backdrop-blur-sm bg-black/20 hover:bg-black/30 transition-all"> <div class="flex items-center gap-4 mb-4"> <span class="text-mystic-gold font-mono px-2 py-1 rounded bg-mystic-gold/10">GET</span> <code class="text-mystic-accent">/cards</code> </div> <p class="mb-4 text-gray-300">Retrieve a list of all tarot cards in the deck</p> <div class="bg-black/40 p-4 rounded-md"> <pre class="text-sm text-gray-300 overflow-x-auto"><code>{
+  &quot;cards&quot;: [
+    {
+      &quot;id&quot;: &quot;fool&quot;,
+      &quot;name&quot;: &quot;The Fool&quot;,
+      &quot;arcana&quot;: &quot;major&quot;,
+      &quot;suit&quot;: null,
+      &quot;number&quot;: 0
+    },
+    // ... more cards
+  ]
+}</code></pre> </div> </div> <div class="border border-mystic-gold/30 rounded-lg p-6 backdrop-blur-sm bg-black/20 hover:bg-black/30 transition-all"> <div class="flex items-center gap-4 mb-4"> <span class="text-mystic-gold font-mono px-2 py-1 rounded bg-mystic-gold/10">GET</span> <code class="text-mystic-accent">/cards/:id</code> </div> <p class="mb-4 text-gray-300">Get detailed information about a specific tarot card</p> <div class="bg-black/40 p-4 rounded-md"> <pre class="text-sm text-gray-300 overflow-x-auto"><code>{
+  &quot;id&quot;: &quot;fool&quot;,
+  &quot;name&quot;: &quot;The Fool&quot;,
+  &quot;arcana&quot;: &quot;major&quot;,
+  &quot;suit&quot;: null,
+  &quot;number&quot;: 0,
+  &quot;meanings&quot;: {
+    &quot;upright&quot;: [&quot;New beginnings&quot;, &quot;Innocence&quot;, &quot;Adventure&quot;],
+    &quot;reversed&quot;: [&quot;Recklessness&quot;, &quot;Risk-taking&quot;, &quot;Second-guessing&quot;]
+  },
+  &quot;description&quot;: &quot;The Fool represents new beginnings, having faith in the future...&quot;
+}</code></pre> </div> </div> <div class="border border-mystic-gold/30 rounded-lg p-6 backdrop-blur-sm bg-black/20 hover:bg-black/30 transition-all"> <div class="flex items-center gap-4 mb-4"> <span class="text-mystic-gold font-mono px-2 py-1 rounded bg-mystic-gold/10">GET</span> <code class="text-mystic-accent">/readings/daily</code> </div> <p class="mb-4 text-gray-300">Get a random daily card reading</p> <div class="bg-black/40 p-4 rounded-md"> <pre class="text-sm text-gray-300 overflow-x-auto"><code>{
+  &quot;date&quot;: &quot;2024-03-21&quot;,
+  &quot;card&quot;: {
+    &quot;name&quot;: &quot;The High Priestess&quot;,
+    &quot;position&quot;: &quot;upright&quot;,
+    &quot;interpretation&quot;: &quot;Trust your intuition today...&quot;
+  }
+}</code></pre> </div> </div> </section> <footer class="mt-20 text-center text-gray-500 border-t border-mystic-gold/20 pt-8" data-astro-cid-j7pv25f6> <p data-astro-cid-j7pv25f6>🌙 Arcana API © 2024 | Made with mystical intentions</p> </footer> </main>  </body></html> 
