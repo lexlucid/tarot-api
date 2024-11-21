@@ -88,10 +88,6 @@ app.get('/cards/random', async (req, res) => {
     res.json(card)
 })
 
-app.get('/', (req, res) => { // Add this block
-    res.sendFile(path.join(__dirname, 'public', 'index.html'))
-})
-
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server listening on port ${PORT}`)
 })

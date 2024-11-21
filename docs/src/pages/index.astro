@@ -17,7 +17,7 @@ import Header from '../components/Header.astro';
           symbolism, and interpretations.
         </p>
         <div class="bg-black/40 p-4 rounded-md mb-8">
-          <code class="text-mystic-accent">Base URL: https://api.arcana.dev/v1</code>
+          <code class="text-mystic-accent">Base URL: https://arcana-api.onrender.com/</code>
         </div>
       </div>
     </section>
@@ -29,24 +29,22 @@ import Header from '../components/Header.astro';
         method="GET"
         endpoint="/cards"
         description="Retrieve a list of all tarot cards in the deck"
-        response={`{
-  "cards": [
-    {
-      "id": "fool",
-      "name": "The Fool",
-      "arcana": "major",
-      "suit": null,
-      "number": 0
-    },
-    // ... more cards
-  ]
-}`}
+        response={`[
+  {
+    "id": "fool",
+    "name": "The Fool",
+    "arcana": "major",
+    "suit": null,
+    "number": 0
+  },
+  // ... more cards
+]`}
       />
 
       <EndpointCard
         method="GET"
-        endpoint="/cards/:id"
-        description="Get detailed information about a specific tarot card"
+        endpoint="/cards/name/:name"
+        description="Get detailed information about a specific tarot card by name"
         response={`{
   "id": "fool",
   "name": "The Fool",
@@ -63,15 +61,68 @@ import Header from '../components/Header.astro';
 
       <EndpointCard
         method="GET"
-        endpoint="/readings/daily"
-        description="Get a random daily card reading"
+        endpoint="/cards/arcana/:arcana"
+        description="Retrieve a list of tarot cards by arcana (major or minor)"
+        response={`[
+  {
+    "id": "fool",
+    "name": "The Fool",
+    "arcana": "major",
+    "suit": null,
+    "number": 0
+  },
+  // ... more cards
+]`}
+      />
+
+      <EndpointCard
+        method="GET"
+        endpoint="/cards/suit/:suit"
+        description="Retrieve a list of tarot cards by suit (e.g., cups, swords)"
+        response={`[
+  {
+    "id": "ace_of_cups",
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "number": 1
+  },
+  // ... more cards
+]`}
+      />
+
+      <EndpointCard
+        method="GET"
+        endpoint="/cards/element/:element"
+        description="Retrieve a list of tarot cards by element (e.g., fire, water)"
+        response={`[
+  {
+    "id": "ace_of_cups",
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "suit": "cups",
+    "element": "water",
+    "number": 1
+  },
+  // ... more cards
+]`}
+      />
+
+      <EndpointCard
+        method="GET"
+        endpoint="/cards/random"
+        description="Get a random tarot card"
         response={`{
-  "date": "2024-03-21",
-  "card": {
-    "name": "The High Priestess",
-    "position": "upright",
-    "interpretation": "Trust your intuition today..."
-  }
+  "id": "fool",
+  "name": "The Fool",
+  "arcana": "major",
+  "suit": null,
+  "number": 0,
+  "meanings": {
+    "upright": ["New beginnings", "Innocence", "Adventure"],
+    "reversed": ["Recklessness", "Risk-taking", "Second-guessing"]
+  },
+  "description": "The Fool represents new beginnings, having faith in the future..."
 }`}
       />
     </section>
