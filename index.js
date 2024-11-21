@@ -1,11 +1,11 @@
 import { PrismaClient } from '@prisma/client'
 import express from 'express'
 import path from 'path'
-import { fileURLToPath } from 'url' // Add this line
-import { dirname } from 'path' // Add this line
+import { fileURLToPath } from 'url'
+import { dirname } from 'path' 
 
-const __filename = fileURLToPath(import.meta.url) // Add this line
-const __dirname = dirname(__filename) // Add this line
+const __filename = fileURLToPath(import.meta.url) 
+const __dirname = dirname(__filename) 
 
 const app = express()
 const prisma = new PrismaClient()
@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 10000
 
 app.use(express.json())
 
-app.use(express.static(path.join(__dirname, 'public'))) // Add this line
+app.use(express.static(path.join(__dirname, 'public'))) 
 
 app.use((req, res, next) => {
     const originalJson = res.json

@@ -10,7 +10,7 @@ A modern take on tarot readings, this API provides programmatic access to pull c
 
 ## How It's Made  
 
-**Tech used:** Node.js, Express, PostgreSQL, Supabase  
+**Tech used:** Node.js, Express, PostgreSQL, Supabase
 
 This project is built with a focus on simplicity, scalability, and ease of use:  
 - **Node.js & Express** power the backend, ensuring fast and reliable endpoints for various tarot queries.  
