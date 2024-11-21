@@ -5,9 +5,12 @@ export default {
     extend: {
       colors: {
         mystic: {
-          dark: '#1a1a2e',
+          dark: '#1d142f',
+          medium: '#4a347b',
+          light: '#cfcbfa',
           accent: '#8b4513',
-          gold: '#ffd700'
+          gold: '#ffd700',
+          golden: '#fff441'
         }
       },
       fontFamily: {

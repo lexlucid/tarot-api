@@ -11,13 +11,20 @@ import Header from '../components/Header.astro';
     <section class="mb-16">
       <h2 class="text-3xl font-mystical text-mystic-gold mb-8">Getting Started</h2>
       <div class="prose prose-invert max-w-none">
-        <p class="text-gray-300 mb-6">
-          Welcome to the Arcana API, your gateway to the mystical world of tarot readings. 
-          Our API provides access to a comprehensive database of tarot cards, including their meanings, 
-          symbolism, and interpretations.
-        </p>
-        <div class="bg-black/40 p-4 rounded-md mb-8">
-          <code class="text-mystic-accent">Base URL: https://arcana-api.onrender.com/</code>
+        <div class="text-gray-300 mb-6">
+          <p class="pb-4">
+            Welcome to the Arcana API! Built with care for developers and tarot enthusiasts alike, this comprehensive REST API provides everything you need to explore the world of tarot. </p>
+
+          <p class="pb-4"> With rich metadata (including images from the Rider-Waite deck), detailed card meanings, intuitive endpoints, and flexible filters, the Arcana API is designed to make integrating 
+            tarot into your project simple and fun.</p> 
+          <p></p>Whether you’re building an app, designing a game, or just exploring - you’re in the right place!
+          </p>
+
+        </div>
+        <div class="flex items-center gap-4 mb-4 bg-black/40 p-4 rounded-md mb-8">
+          <span class="text-mystic-light font-mono px-2 py-1 rounded bg-mystic-light/10">BASE URL:</span>
+          <code class="text-mystic-gold">https://arcana-api.onrender.com/</code> 
+        </div></code>
         </div>
       </div>
     </section>
@@ -128,7 +135,7 @@ import Header from '../components/Header.astro';
     </section>
 
     <footer class="mt-20 text-center text-gray-500 border-t border-mystic-gold/20 pt-8">
-      <p>🌙 Arcana API © 2024 | Made with mystical intentions</p>
+      <p>🌙 Arcana API © 2024 | Made by <a href="http://lexlucid.xyz">lexlucid</a></p>
     </footer>
   </main>
 </Layout>
